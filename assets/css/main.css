@@ -226,7 +226,6 @@ h6 {
 .navmenu {
   padding: 0;
   z-index: 9997;
-  width: 300px; /* Adjust width for wider navbar */
 }
 
 .navmenu ul {
@@ -238,7 +237,7 @@ h6 {
 .navmenu a,
 .navmenu a:focus {
   color: var(--nav-color);
-  padding: 15px 20px; /* Increased padding for a wider appearance */
+  padding: 15px 10px;
   font-family: var(--nav-font);
   font-size: 16px;
   font-weight: 400;
@@ -302,7 +301,7 @@ h6 {
 
 .navmenu .dropdown a,
 .navmenu .dropdown a:focus {
-  color: var(--nav-dropdown-color);
+  color: --nav-dropdown-color;
 }
 
 .navmenu .dropdown a:hover,
@@ -331,7 +330,6 @@ h6 {
   display: block;
   background-color: rgba(33, 37, 41, 0.03);
 }
-
 
 
 
